@@ -47,7 +47,7 @@ d24a994aca7a   ismailpb/ipstack:latest   "python3 app.py"   4 minutes ago       
 ```
 Here the section "CACHING_SERVER=ipstack-ro.nqpsgt.ng.0001.aps1.cache.amazonaws.com" is the elasticache that we have created previously. You may use your own  primary endpoint elasticache in the container creation.
 
-Now the application is available, but the url is little big as we may need to provide the port number. So to simply the procedure we are goint to craete a Load Balancer so that we can point/create CNAME for a subdomain with the Load Balancer public DNS.
+Now the application is available, but the url is little big as we may need to provide the port number. So to simplify the procedure we are going to create a Load Balancer so that we can create CNAME for a subdomain with the Load Balancer public DNS.
 
 ### Creating Load Balancer
 
