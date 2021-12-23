@@ -4,7 +4,7 @@ Here we are going to setup 3 containers with same application to find out the Ge
 
 ### Access Key
 
-Before going to craete the containers we need a access key from "https://ipstack.com/" [You can generate the access key using free tier].
+Before going to create the containers we need a access key from "https://ipstack.com/" [You can generate the access key using free tier].
 
 ### Network
 
