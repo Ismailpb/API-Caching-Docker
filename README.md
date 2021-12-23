@@ -53,6 +53,7 @@ Now the application is available, but the url is little big as we may need to pr
 
 Before creating Load Balancer, we need to create a target group with minimum requirements. For creating target group you may login to your aws console >> EC2 >> Load Balancing >> Target Groups. From there we can create the target group and need to attach the instance(Instance that we have created the containers)and once the target group is ready just move on to create Load Balancer. Here am using the Load Balancer as "Application Load Balancer".
 
+![image](https://github.com/Ismailpb/API-Caching-Docker/blob/86a364e315701427a804666461757fba69793f7f/Screenshot%20from%202021-12-23%2013-42-59.png)
 
 For creating Load Balancer log in to aws console >> EC2 >> Load Balancing >> Load Balancers. Once the load balancer is ready we can set a  CNAME record for a subdomain (The domain that we owned) to the  dns name in application load balancer.
 
